@@ -15,7 +15,15 @@ This is code implementation for `Dual Projection: Persistent Model Poisoning Att
 
 ## How to Start
 
-We implement CLI in `system/__main__.py`, type `python -m system --help` to see available commands. Note that `optimizer_factory()`  stay in `system/__main__.py` , you need import it first before deserialize.
-
-A comprehensive guide is coming soon.
-
+1. Generate data for the federated learning system.
+```bash
+python3 system gendata -c data-config.json5
+```
+2. (Optional) Check your data distribution.
+```bash
+python3 system plot -d ${Path-To-FL-Dataset-File}
+```
+3. Start the federated learning system.
+```bash
+python3 system run -c config.json5
+```

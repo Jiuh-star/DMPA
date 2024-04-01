@@ -1,5 +1,5 @@
 """
-Dual Projection Model Poisoning Attack
+Durable Model Poisoning Attack
 """
 from __future__ import annotations
 
@@ -17,10 +17,10 @@ from attackers.core import Attacker, AttackInfo
 if TYPE_CHECKING:
     from system.fedavg import FedAvgClient
 
-__all__ = ["DpmpaAttacker"]
+__all__ = ["DmpaAttacker"]
 
 
-class DpmpaAttacker(Attacker):
+class DmpaAttacker(Attacker):
     _clients: list[FedAvgClient] = []
     _bad_model: nn.Module = None
     _attack_at: int = -1

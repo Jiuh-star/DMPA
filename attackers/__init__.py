@@ -5,5 +5,5 @@ from .lmpa import *
 from .mpaf import *
 from .nothing import *
 from .pga import *
-from .dpmpa import *
+from .dmpa import *
 from .fmpa import *
