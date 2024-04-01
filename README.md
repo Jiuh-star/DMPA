@@ -1,6 +1,6 @@
 # Dual Projection Model Poisoning Attack
 
-This is code implementation for `Dual Projection: Persistent Model Poisoning Attack against Fairness and Robustness in Federated Learning` and other model poisoning attacks, see code for details.
+This is code implementation for `DMPA: Durable Model Poisoning Attack against Fairness and Robustness in Federated Learning` and other model poisoning attacks, see code for details.
 
 ## Project Structure
 
