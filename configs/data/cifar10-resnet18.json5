@@ -1,0 +1,19 @@
+{
+  seed: 0,
+  dataset: "cifar10",
+  output: "data/cifar10-resnet18.fl",
+  datasetSettings: {
+    numClient: 100,
+    alpha: 1,
+    resize: [
+      224,
+      224
+    ],
+    minData: 40,
+    fractions: [
+      0.6,
+      0.2,
+      0.2,
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  protocol: "FedAvg",
+  seed: 0,
+  dataset: "data/cifar10-cnn.fl",
+  fastMode: true,
+  clientSettings: {
+    device: "cuda",
+    lossFn: "CrossEntropyLoss",
+    maxEpoch: 1,
+    optimizerSettings: {
+      type: "SGD",
+      lr: 0.01,
+    },
+    dataloaderSettings: {
+      batchSize: 8,
+      shuffle: true,
+      dropLast: false,
+    },
+  },
+  attackerSettings: {
+    type: "DoNothingAttacker",
+    number: 4,
+    attackRange: [
+      5,
+      50,
+      1,
+    ],
+    attackOnce: false,
+    attackerThreshold: 0,
+  },
+  serverSettings: {
+    selectRatio: 0.2,
+    maxEpoch: 200,
+    learningRate: 1.0,
+    robustSettings: {
+      type: "Krum",
+      numRemove: 4,
+    },
+    modelSettings: {
+      type: "CnnModel",
+      inChannels: 3,
+      numClass: 10,
+      dim: 1600,
+    },
+  },
+  systemSettings: {
+    logDir: "output/MultiKrum/CIFAR10-CNN/NoAttack",
+    evalPerEpoch: 1,
+    continuous: true,
+  },
+}
