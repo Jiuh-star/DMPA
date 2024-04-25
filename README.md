@@ -17,15 +17,15 @@ This is code implementation for `DMPA: Durable Model Poisoning Attack against Fa
 
 1. Generate data for the federated learning system.
 ```bash
-python3 system gendata -c configs/data/cifar10-cnn.json5
+python3 -m system gendata -c configs/data/cifar10-cnn.json5
 ```
 2. (Optional) Check your data distribution.
 ```bash
-python3 system plot -d configs/data/cifar10-cnn.fl
+python3 -m system plot -d configs/data/cifar10-cnn.fl
 ```
 3. Start the federated learning system.
 ```bash
-python3 system run -c configs/cifar10-cnn-mkrum/dmpa.json5
+python3 -m system run -c configs/cifar10-cnn-mkrum/dmpa.json5
 ```
 4. Check experimental result with TensorBoard in output folder.
 ```bash
