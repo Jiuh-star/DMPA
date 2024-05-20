@@ -433,7 +433,3 @@ class DmpaAttacker(Attacker):
         for client in self._clients:
             for x, y in client.train_dataloader:
                 yield x, y
-
-
-DualProjectionAttacker = Ours2Attacker
-

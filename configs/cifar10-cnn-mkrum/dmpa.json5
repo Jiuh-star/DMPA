@@ -18,7 +18,7 @@
     },
   },
   attackerSettings: {
-    type: "Ours2Attacker",
+    type: "DmpaAttacker",
     number: 4,
     attackRange: [
       5,
