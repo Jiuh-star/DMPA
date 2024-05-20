@@ -11,6 +11,8 @@ This is code implementation for `DMPA: Durable Model Poisoning Attack against Fa
 └─ system  # Experiment environment, we implemented FedAvg here
 ```
 
+## Requirements
+`pytorch~=2.0.0`, `torchvision` (model and dataset), `json5` (configuration parser), `typer` (CLI), `rich` (logging and colored stdout), `python-box` (prefered configuration container), `more-itertools` (iteration utilities), `torchmetrics` (metrics), `tensorboard` (dashboard).
 
 
 ## How to Start
