@@ -1,9 +1,5 @@
 """
-M. Fang, X. Cao, J. Jia, and N. Gong,
-“Local Model Poisoning Attacks to Byzantine-Robust Federated Learning,”
-in 29th USENIX Security Symposium (USENIX Security 20), 2020, pp.
-1605–1622. [Online].
-Available: https://www.usenix.org/conference/usenixsecurity20/presentation/fang
+Local Model Poisoning Attacks to Byzantine-Robust Federated Learning
 """
 from __future__ import annotations
 

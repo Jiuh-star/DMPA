@@ -1,5 +1,3 @@
-# TODO: Refactor for intuitive code
-
 from __future__ import annotations
 
 import copy

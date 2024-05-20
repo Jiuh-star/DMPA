@@ -1,6 +1,6 @@
 # Durable Model Poisoning Attack
 
-This is code implementation for `DMPA: Durable Model Poisoning Attack against Fairness and Robustness in Efficient Federated Learning System` and other model poisoning attacks in `FedAvg`, see code for details.
+This is partial code implementation for `DMPA: Durable Model Poisoning Attack against Fairness and Robustness in Efficient Federated Learning System` and other model poisoning attacks in `FedAvg`, see code for details. Note that we will update the full implementation after the paper is accepted.
 
 ## Project Structure
 

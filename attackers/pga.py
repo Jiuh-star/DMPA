@@ -1,6 +1,5 @@
 """
-V. Shejwalkar, A. Houmansadr, P. Kairouz, and D. Ramage, “Back to the Drawing Board: A Critical Evaluation of
-Poisoning Attacks on Production Federated Learning.” arXiv, Dec. 13, 2021. doi: 10.48550/arXiv.2108.10241.
+Back to the Drawing Board: A Critical Evaluation of Poisoning Attacks on Production Federated Learning.
 """
 from __future__ import annotations
 

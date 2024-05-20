@@ -1,20 +1,5 @@
 """
-@inproceedings{zhang_denial--service_2023,
-    location = {Macau, {SAR} China},
-    title = {Denial-of-Service or Fine-Grained Control: Towards Flexible Model Poisoning Attacks on Federated Learning},
-    isbn = {978-1-956792-03-4},
-    url = {https://www.ijcai.org/proceedings/2023/508},
-    doi = {10.24963/ijcai.2023/508},
-    shorttitle = {Denial-of-Service or Fine-Grained Control},
-    eventtitle = {Thirty-Second International Joint Conference on Artificial Intelligence \{{IJCAI}-23\}},
-    pages = {4567--4575},
-    booktitle = {Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence},
-    publisher = {International Joint Conferences on Artificial Intelligence Organization},
-    author = {Zhang, Hangtao and Yao, Zeming and Zhang, Leo Yu and Hu, Shengshan and Chen, Chao and Liew, Alan and Li, Zhetao},
-    urldate = {2023-09-03},
-    date = {2023-08},
-    langid = {english},
-}
+Denial-of-Service or Fine-Grained Control: Towards Flexible Model Poisoning Attacks on Federated Learning
 """
 
 from __future__ import annotations
