@@ -1,3 +1,8 @@
+> [!NOTE]
+> Following [this draft](https://www.ietf.org/archive/id/draft-abaris-aicdh-00.html), we disclosure the presence and degree of vibe coding in the repo.
+> 
+> `AI-Disclosure: none`
+
 # Durable Model Poisoning Attack
 
 This is partial code implementation for `DMPA: Durable Model Poisoning Attack against Fairness and Robustness in Efficient Federated Learning System` and other model poisoning attacks in `FedAvg`, see code for details. Note that we will update the full implementation after the paper is accepted.
