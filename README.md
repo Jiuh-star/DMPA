@@ -38,3 +38,14 @@ python3 -m system run -c configs/cifar10-cnn-mkrum/dmpa.json5
 ```bash
 tensorboard --logdir output/MultiKrum/CIFAR10-CNN/DMPA/
 ```
+
+## BibTex
+```bibtex
+@article{jiang2026dmpa,
+  title={DMPA: Durable Model Poisoning Attack against Fairness and Robustness in Efficient Federated Learning Systems},
+  author={Jiang, Jionghui and Hao, Fengrui and Gu, Tianlong and Wang, Ke and Liu, Xiaoli and Wen, Zhangbin},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  year={2026},
+  publisher={IEEE}
+}
+```
